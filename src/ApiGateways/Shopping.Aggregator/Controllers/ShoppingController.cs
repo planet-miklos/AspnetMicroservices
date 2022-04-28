@@ -32,7 +32,7 @@ namespace Shopping.Aggregator.Controllers
             // iterate basket items and consume products with basket item productId member
             // map product related members into basketitem dto with extended columns
             // consume ordering microservices in order to retrieve order list
-            // return root ShoppngModel dto class which including all responses
+            // return root ShoppingModel dto class which including all responses
 
             var basket = await _basketService.GetBasket(userName);
 
